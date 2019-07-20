@@ -1,0 +1,114 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    color: blue;
+}
+
+#container {
+    border: solid 10px red;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: none;
+}
+
+h2 {
+    font-size: 44px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 32px;
+    color: blue;
+}
+
+#instruction-box {
+    border-bottom: solid orangered 3px;
+    ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#instructions {
+    font-family: arial;
+    line-height: 1.6;
+    font-size: 25px;
+    color: white;
+    font-style: bold;
+}
+
+.box {
+    border-bottom: solid #57e0ff 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.scores {
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: none;
+    border: solid 5px red;
+    font-size: 25px;
+    color: red;
+}
+
+span {
+    border: solid 4px black;
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.box1 {
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: none;
+    border: solid 5px red;
+    font-size: 25px;
+    color: red;
+    text-align: center;
+}
+
+.imagebox {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#hotdog {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#nachos {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#peanuts {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#CrackerJack {
+    width: 100px;
+    height: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
