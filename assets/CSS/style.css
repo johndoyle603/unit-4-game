@@ -8,7 +8,6 @@ h1 {
 }
 
 #container {
-    border: solid 10px red;
     margin-left: 10%;
     margin-right: 10%;
     background: none;
@@ -23,8 +22,6 @@ h2 {
 }
 
 #instruction-box {
-    border-bottom: solid orangered 3px;
-    ;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -35,10 +32,10 @@ h2 {
     font-size: 25px;
     color: black;
     font-style: bold;
+    overflow-y: scroll;
 }
 
 .box {
-    border-bottom: solid #57e0ff 5px;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 40px;
@@ -52,9 +49,7 @@ h2 {
     margin: 10px;
     font-family: 'Arial Narrow', Arial, sans-serif;
     background-color: none;
-    border: solid 5px red;
-    font-size: 25px;
-    color: red;
+        font-size: 25px;
 }
 
 span {
@@ -70,9 +65,7 @@ span {
     margin: 10px;
     font-family: 'Arial Narrow', Arial, sans-serif;
     background-color: none;
-    border: solid 5px red;
     font-size: 25px;
-    color: red;
     text-align: center;
 }
 
@@ -111,4 +104,8 @@ span {
     height: 100px;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+body {
+    height: 100vh;
 }

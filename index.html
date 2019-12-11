@@ -6,27 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ballpark food game!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="./assets/CSS/reset.css" /> -->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/CSS/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-2.2.4.js"
         integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 </head>
 
 <body background="./assets/images/fenway.jpg">
     <div id="container">
-        <h1>Ballpark food game!</h1>
-        <div id="instruction-box">
+        <h1>SNACKS! A game by J.D.</h1>
+        <div id="instruction-box" class="overflow-auto">
             <h2>Instructions:</h2>
 
             <div id="instructions">
-                <p>Time to buy snacks at the ballgame! Sadly, the snack bar takes only exact change and does not show
-                    prices on the menu. Also, it gives you the bill before you buy anything.</p>
-                <p>Click a food item below to add cost to your total purchase.</p>
-                <p>You win the game by matching the total price of your snacks to the bill. You lose if your total bill
-                    exceeds the predetermined bill.</p>
-                <p>The value of each food item is hidden until you click.</p>
-                <p>Each time the game starts, the game will change the values of each food item and the total bill.
-                    Enjoy!</p>
+                <p>Time to buy snacks at the ballgame! Unfortunately, the snack bar does not show any prices on the
+                    menu, and it gives you the bill before you even buy anything. Making matters worse, it only accepts
+                    exact change. Yeah, it's weird, I know...</p>
+                <p>The value of each snack is hidden until you click.</p>
+                <p>You win the game by matching the total price of your snacks to the bill. If your bill exceeds the
+                    predetermined bill, you lose.</p>
+                <p>Each time the game starts, the game will change the values of each snack, and the total bill. Enjoy!
+                </p>
                 <br></br>
             </div>
         </div>
@@ -52,6 +55,7 @@
             <img id="nachos" src="./assets/images/nachos.jpg">
             <img id="peanuts" src="./assets/images/peanuts.jpg">
             <img id="CrackerJack" src="./assets/images/CrackerJack.jpg">
+
         </div>
 
         <div class="box1">
